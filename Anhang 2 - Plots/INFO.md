@@ -1,1 +1,1 @@
-Es wurden nicht überall alle möglichen Files generiert. Beispielsweise beim Schulterwinkel wurde sich bei einigen Plots auf die relevaten Übungen beschränkt etc
+Es wurden nicht überall alle möglichen Files generiert. Manchmal wurden nur diejenigen, die für die Analyse interesannt waren geplottet. Beispielsweise beim Schulterwinkel wurde sich bei einigen Plots auf die relevaten Übungen beschränkt etc
