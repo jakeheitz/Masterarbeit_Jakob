@@ -1,0 +1,39 @@
+Schreibe mir bitte ein Abstract zu dieser Arbeit
+Hier ist ein Abstract für die Masterarbeit basierend auf den bereitgestellten Informationen:
+
+Abstract
+Die vorliegende Masterarbeit untersucht die Anwendung von 3D Human Pose Estimation (HPE) Modellen zur Analyse und Unterstützung sportlicher Bewegungsaufgaben auf dem Sensopro Luna, einem multifunktionalen Trainingsgerät. Ziel der Arbeit ist es, die Genauigkeit zweier HPE-Modelle – MediaPipe Pose und PoseFormerV2 – hinsichtlich der Schätzung von Gelenkpositionen und -winkeln zu evaluieren. Hierzu wurden eigens Bewegungsdaten im Labor mittels markerbasiertem Motion-Capture-System und synchronisierten Videokameras aufgenommen und analysiert.
+
+Beide Modelle basieren auf monokularen RGB-Videoaufnahmen und ermöglichen die dreidimensionale Pose-Schätzung durch Deep-Learning-Ansätze. Die Modelle wurden anhand der berechneten Mean Per Joint Position Error (MPJPE) und Gelenkwinkelvalidierung an verschiedenen sportlichen Übungen getestet. Zusätzlich wurde der Einfluss der Kameraperspektive auf die Ergebnisse analysiert.
+
+Die Ergebnisse liefern wertvolle Einblicke in die Leistungsfähigkeit der HPE-Modelle unter praxisnahen Bedingungen und stellen eine Grundlage für die Integration solcher Modelle in videobasierte Feedbacksysteme dar. Durch die generierten Datensätze wird ein Beitrag zur Weiterentwicklung von Bewegungsanalysen und zur Verbesserung von sportlichem Training und Rehabilitation geleistet.
+
+Falls du Anpassungen oder eine andere Schwerpunktsetzung möchtest, lass es mich wissen!
+
+
+
+
+
+
+
+Du:
+Bitte mit Struktur (methode, resultate, theorie etc) 
+ChatGPT:
+Hier ist ein strukturierter Abstract:
+
+Abstract
+Diese Masterarbeit untersucht die Anwendung von 3D Human Pose Estimation (HPE) Modellen zur Analyse sportlicher Bewegungsaufgaben auf dem Sensopro Luna, einem multifunktionalen Trainings- und Rehabilitationsgerät. Ziel der Arbeit ist es, die Genauigkeit der Modelle MediaPipe Pose und PoseFormerV2 hinsichtlich der Schätzung von Gelenkpositionen und -winkeln zu evaluieren und die Anwendbarkeit dieser Modelle für videobasierte Feedbacksysteme zu prüfen.
+
+Theoretischer Hintergrund:
+Im theoretischen Teil werden die Grundlagen der 3D-HPE sowie relevante Ansätze und Modelle dargestellt. Dabei wird zwischen 2D- und 3D-HPE unterschieden, und zentrale Evaluationsmetriken wie der Mean Per Joint Position Error (MPJPE) sowie Gelenkwinkelberechnungen werden erläutert. MediaPipe Pose und PoseFormerV2 werden als zwei unterschiedliche Ansätze vorgestellt, die jeweils auf Deep-Learning-Technologien basieren und mit monokularen RGB-Videoaufnahmen arbeiten.
+
+Methodik:
+Die Evaluation basiert auf einem eigens entwickelten Datensatz, der Bewegungsaufnahmen von sechs Proband:innen umfasst. Die Bewegungsdaten wurden zeitgleich mit einem markerbasierten Motion-Capture-System (Vicon) und sechs synchronisierten Videokameras in einem Laborsetting aufgenommen. Die aufgenommenen Übungen umfassten verschiedene Bewegungsarten (z. B. Squat, Step, Sprint), um sowohl Knie- als auch Schulterbewegungen zu analysieren. Die Videoaufnahmen dienten als Input für die HPE-Modelle, während die Motion-Capture-Daten als Referenzsystem verwendet wurden. Die Ergebnisse wurden anhand der MPJPE sowie der Genauigkeit der berechneten Gelenkwinkel evaluiert.
+
+Ergebnisse:
+Die Analyse zeigt, dass beide Modelle unterschiedliche Stärken und Schwächen aufweisen. MediaPipe Pose erzielt zufriedenstellende Ergebnisse bei einfachen Bewegungen und bietet eine hohe Verarbeitungsleistung, jedoch ist die Genauigkeit bei komplexeren Bewegungsmustern begrenzt. PoseFormerV2 hingegen liefert präzisere Ergebnisse, insbesondere bei der Schätzung der Gelenkwinkel, benötigt jedoch mehr Rechenressourcen. Zudem wurde festgestellt, dass die Kameraperspektive einen erheblichen Einfluss auf die Genauigkeit der Modelle hat.
+
+Schlussfolgerungen:
+Die Ergebnisse der Arbeit zeigen, dass 3D-HPE-Modelle wie MediaPipe Pose und PoseFormerV2 Potenzial für den Einsatz in sportlichen Bewegungsanalysen bieten. Die generierten Datensätze können als Grundlage für zukünftige Forschungsprojekte dienen und ermöglichen es, bestehende Modelle weiter zu optimieren. Die Arbeit liefert einen wichtigen Beitrag zur Entwicklung videobasierter Feedbacksysteme im Sport und zur Verbesserung von Training und Rehabilitation.
+
+Diese strukturierte Version stellt die einzelnen Bereiche der Arbeit klar heraus und bietet einen fundierten Überblick. Lass mich wissen, ob noch etwas angepasst werden soll!
