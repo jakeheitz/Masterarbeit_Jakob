@@ -1,5 +1,5 @@
 
-u:
+Du:
 # Funktion: Procrustes-Analyse
 def procrustes_analysis(A, B):
     A_centroid, B_centroid = np.mean(A, axis=0), np.mean(B, axis=0)
