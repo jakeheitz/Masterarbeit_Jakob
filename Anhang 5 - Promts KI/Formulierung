@@ -1,0 +1,15 @@
+Wie in Kapitel 3.4.1 beschrieben, kann MediaPipe in drei verschiedenen Komplexitäten verwendet werden. Um die Auswertung nicht zu komplex werden zu lassen, wurde in Kapitel 5 jeweils nur die rechenaufwändigste Version (Komplexität 2) mit PoseFormerV2 verglichen, da die Unterschiede zwischen den Komplexitäten wesentlich kleiner sind. Der Unterschied dieser drei MediaPipe Modelle soll in diesem Kapitel nun noch etwas beleuchtet werden. Dies wird wiederum anhand der Kameras 1, 2 und 3 gemacht und auf den Kniewinkel beschränkt. 
+
+kannst du das bitte etwas verständlicher formulieren?
+
+ChatGPT:
+Klar! Hier ist eine verständlichere Version des Textes:
+
+Wie in Kapitel 3.4.1 beschrieben, bietet MediaPipe drei verschiedene Komplexitätsstufen. Um die Analyse überschaubar zu halten, wurde in Kapitel 5 ausschließlich die aufwändigste Stufe (Komplexität 2) mit PoseFormerV2 verglichen, da die Unterschiede zwischen den Stufen relativ gering sind. In diesem Kapitel wird nun näher auf die Unterschiede der drei MediaPipe-Modelle eingegangen. Dafür werden erneut die Daten der Kameras 1, 2 und 3 verwendet, wobei der Fokus auf dem Kniewinkel liegt.
+
+
+
+
+
+
+
