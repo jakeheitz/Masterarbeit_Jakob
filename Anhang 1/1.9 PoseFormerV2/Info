@@ -1,0 +1,5 @@
+vis.py -> dies ist das von den Autoren auf Github veröffentlichte python Script (https://github.com/QitaoZhao/PoseFormerV2/tree/main/demo)
+
+Vis_adjusted.py -> Angepasstes Skript, das zusätzlich zum Demovideo und den Bildern noch die 3D-Positionen der Landmarks speichert (als NPZ)
+
+Vis_adjusted.py -> Speichert die Videos und Bilder nicht ab, um Rechendauer und Speicherplatz zu sparen
