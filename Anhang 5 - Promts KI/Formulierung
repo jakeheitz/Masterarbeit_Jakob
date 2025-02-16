@@ -1,15 +1,8 @@
-Wie in Kapitel 3.4.1 beschrieben, kann MediaPipe in drei verschiedenen Komplexitäten verwendet werden. Um die Auswertung nicht zu komplex werden zu lassen, wurde in Kapitel 5 jeweils nur die rechenaufwändigste Version (Komplexität 2) mit PoseFormerV2 verglichen, da die Unterschiede zwischen den Komplexitäten wesentlich kleiner sind. Der Unterschied dieser drei MediaPipe Modelle soll in diesem Kapitel nun noch etwas beleuchtet werden. Dies wird wiederum anhand der Kameras 1, 2 und 3 gemacht und auf den Kniewinkel beschränkt. 
 
-kannst du das bitte etwas verständlicher formulieren?
+Du:
+Es gibt bis heute erst wenige Studien, die die Genauigkeit von HPE-Modellen mit eigens aufgenommenen Daten untersuchen. Meist werden die Modelle mit einem Teil der Datensätze, für das Training nicht verwendet wurden, getestet. Besonders in sportlichen Settings, bei denen die Bewegungen oft eine grössere Range of Motion und grössere Geschwindigkeit haben als bei Alltagsbewegungen, sind noch nicht viele Studien zu finden.
 
+wie kann ich das schöner formulieren, dass es besser verständlich ist. Ich möchte das Problem ansprechen, dass die Modelle oft auf denselben Datensätzen getestet werden, wie sie trainiert werden (also nicht die gleichen Daten, aber z.B 9/12 Personen fürs Training und die anderen 3 für die Evalutaion. Es gibt wenige Studien, die selber Daten aufgenommen haben um die Modelle in anderen Settings zu testen
 ChatGPT:
-Klar! Hier ist eine verständlichere Version des Textes:
-
-Wie in Kapitel 3.4.1 beschrieben, bietet MediaPipe drei verschiedene Komplexitätsstufen. Um die Analyse überschaubar zu halten, wurde in Kapitel 5 ausschließlich die aufwändigste Stufe (Komplexität 2) mit PoseFormerV2 verglichen, da die Unterschiede zwischen den Stufen relativ gering sind. In diesem Kapitel wird nun näher auf die Unterschiede der drei MediaPipe-Modelle eingegangen. Dafür werden erneut die Daten der Kameras 1, 2 und 3 verwendet, wobei der Fokus auf dem Kniewinkel liegt.
-
-
-
-
-
-
+Bis heute gibt es nur wenige Studien, die die Genauigkeit von HPE-Modellen (Human Pose Estimation) mit eigens erhobenen Datensätzen untersuchen. In der Regel werden die Modelle auf denselben Datensätzen evaluiert, die auch für das Training genutzt wurden – zwar mit unterschiedlichen Datenabschnitten (z. B. durch Aufteilung der Daten nach Personen), aber dennoch innerhalb desselben Datensatzes. Besonders im sportlichen Kontext, wo Bewegungen oft eine größere Bewegungsamplitude und höhere Geschwindigkeiten aufweisen als Alltagsbewegungen, fehlen Studien, die Modelle mit neu aufgenommenen, unabhängigen Daten in realistischen Anwendungsszenarien testen
 
